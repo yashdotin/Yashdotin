@@ -55,7 +55,7 @@
 
 ## 📊 My LeetCode Stats
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/yashawasthi25?theme=dark&font=Baloo&ext=heatmap)
+![LeetCode Stats](https://leetcode.com/u/yashawasthi25?theme=dark&font=Baloo&ext=heatmap)
 
 ---
 
