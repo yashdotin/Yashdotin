@@ -15,11 +15,11 @@
 
 ## 📈 GitHub Stats
 
-![Yash's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yashjs10&show_icons=true&theme=radical)
+![Yash's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yashdotin&show_icons=true&theme=radical)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashjs10&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashdotin&layout=compact&theme=radical)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=Yashjs10&theme=radical)
+![GitHub Streak](https://streak-stats.demolab.com/?user=Yashdotin&theme=radical)
 
 
 ## ⚡ Skills
