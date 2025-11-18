@@ -13,6 +13,15 @@
 
 ---
 
+## 📈 GitHub Stats
+
+![Yash's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yashjs10&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashjs10&layout=compact&theme=radical)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=Yashjs10&theme=radical)
+
+
 ## ⚡ Skills
 
 | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat\&logo=java\&logoColor=white)       | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat\&logo=python\&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat\&logo=nodedotjs\&logoColor=white)             | ![Express](https://img.shields.io/badge/Express.js-000000?style=flat\&logo=express\&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat\&logo=fastapi\&logoColor=white) |
