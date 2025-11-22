@@ -34,15 +34,39 @@
 
 ## 🚀 Projects
 
-- 🎙️ **AI Voice Assistant (Chanakya)** → [LinkedIn Post](https://www.linkedin.com/posts/yash-awasthi-a7aa5b334_ai-voiceassistant-nvidia-activity-7319263848144801792-2OTd)  
-  Built using **Python**, integrates **NLP** and **voice commands** to interact naturally.
+### 🎙️ AI Voice Assistant (Chanakya)
+**➡️ [LinkedIn Post](https://www.linkedin.com/posts/yash-awasthi-a7aa5b334_ai-voiceassistant-nvidia-activity-7319263848144801792-2OTd)**  
+Built using **Python**, integrates **NLP** and voice commands for natural interaction.
 
-- 🛒 **E-Commerce Website (Inspired by Airbnb)** → [visit](https://wanderlust-kwz3.onrender.com/listings)  
-  Currently building with **Node.js + MongoDB** and modern UI features.
+---
 
-- 🌐 **Arka**  → [visit](https://arka-oh4z.onrender.com/)
-  Arka is like a friend — you can talk to him in your free time, he’ll quickly solve your problems, crack funny jokes, and chat with you just like a close buddy.
+### 🛒 E-Commerce Website (Inspired by Airbnb)
+**➡️ [Visit](https://wanderlust-kwz3.onrender.com/listings)**  
+Built using **Node.js + MongoDB** with a clean, modern UI.
 
+---
+
+### 🌐 Arka – Chat Companion
+**➡️ [Visit](https://arka-oh4z.onrender.com/)**  
+A friendly chatbot that solves problems, cracks jokes, and chats like a buddy.
+
+---
+
+### 🧮 MathSuite
+**➡️ [Visit](https://mathsuite.onrender.com/)**  
+A full-featured **math tools suite** with a clean UI. Fast, reliable, deployed on Render.
+
+---
+
+### 🔳 QR Generator
+**➡️ [Visit](https://qr-1fb6.onrender.com/)**  
+Simple, fast **URL → QR code** generator built using Node/Express.
+
+---
+
+### 🧩 PocketCalc
+**➡️ [Visit](https://pocketcalc-ce6p.onrender.com/)**  
+A lightweight, portable **online calculator** for quick everyday calculations.
 ---
 
 ## 🤝 Open to Collaborate On
