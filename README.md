@@ -8,7 +8,7 @@
 
 📫 **Let's connect, ping me anywhere 🤝**
 
-| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/yash-awasthi-a7aa5b334/) | [![GitHub](https://img.shields.io/badge/GitHub-333?style=flat\&logo=github\&logoColor=white)](https://github.com/Yashjs10) | [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat\&logo=leetcode\&logoColor=white)](https://leetcode.com/u/yashawasthi25) | [![Email](https://img.shields.io/badge/Email-D14836?style=flat\&logo=gmail\&logoColor=white)](mailto:yashawasthi854@gmail.com) |
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/yash-awasthi-a7aa5b334/) | [![GitHub](https://img.shields.io/badge/GitHub-333?style=flat\&logo=github\&logoColor=white)](https://github.com/Yashdotin) | [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat\&logo=leetcode\&logoColor=white)](https://leetcode.com/u/yashawasthi25) | [![Email](https://img.shields.io/badge/Email-D14836?style=flat\&logo=gmail\&logoColor=white)](mailto:yashawasthi854@gmail.com) |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 
 ---
