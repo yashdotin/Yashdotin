@@ -13,14 +13,21 @@
 
 ---
 
-## 📈 GitHub Stats
+## 📈 Coding & GitHub Activity
 
-![Yash's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yashdotin&show_icons=true&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Yashdotin&show_icons=true&theme=radical" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yashdotin&layout=compact&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashdotin&layout=compact&theme=radical" />
+</p>
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=Yashdotin&theme=radical)
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Yashdotin&theme=radical" />
+</p>
 
+---
 
 ## ⚡ Skills
 
