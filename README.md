@@ -84,9 +84,9 @@ A lightweight, portable **online calculator** for quick everyday calculations.
 
 ---
 
-## 📊 My LeetCode Stats
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/yashawasthi25?theme=dark&font=Baloo&ext=heatmap)
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/yashawasthi25?font=Baloo&ext=heatmap)
 
 ---
 
