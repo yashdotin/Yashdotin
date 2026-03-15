@@ -90,4 +90,4 @@ A lightweight, portable **online calculator** for quick everyday calculations.
 
 ---
 
-### MADE WITH ❤️ BY YASH
+
