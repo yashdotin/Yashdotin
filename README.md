@@ -6,88 +6,30 @@
 
 ---
 
-📫 **Let's connect, ping me anywhere 🤝**
+## Socials:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://m.facebook.com/yash.awasthi.923171/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/yash.awasthi.10) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/yash-awasthi-a7aa5b334) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yashawasthi854@gmail.com) 
 
-| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/yash-awasthi-a7aa5b334/) | [![GitHub](https://img.shields.io/badge/GitHub-333?style=flat\&logo=github\&logoColor=white)](https://github.com/Yashdotin) | [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat\&logo=leetcode\&logoColor=white)](https://leetcode.com/u/yashawasthi25) | [![Email](https://img.shields.io/badge/Email-D14836?style=flat\&logo=gmail\&logoColor=white)](mailto:yashawasthi854@gmail.com) |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+# GitHub Metrics:
+![](https://github-readme-stats.shion.dev/api?username=Yashdotin&theme=vision-friendly-dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=Yashdotin&theme=vision-friendly-dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Yashdotin&theme=vision-friendly-dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
----
+## GitHub Collection 
+![](https://github-profile-trophy.vercel.app/?username=Yashdotin&theme=vision-friendly-dark&no-frame=false&no-bg=false&margin-w=4)
 
-## 📈 Coding & GitHub Activity
+# Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yashdotin&show_icons=true&theme=radical" />
-</p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashdotin&layout=compact&theme=radical" />
-</p>
+### Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Yashdotin&theme=radical" />
-</p>
-
----
-
-## ⚡ Skills
-
-| ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat\&logo=java\&logoColor=white)       | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat\&logo=python\&logoColor=white) | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat\&logo=nodedotjs\&logoColor=white)             | ![Express](https://img.shields.io/badge/Express.js-000000?style=flat\&logo=express\&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat\&logo=fastapi\&logoColor=white) |
-| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat\&logo=html5\&logoColor=white)    | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat\&logo=css3\&logoColor=white)       | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat\&logo=tailwindcss\&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat\&logo=git\&logoColor=white)                | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat\&logo=github\&logoColor=white)    |
-| ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat\&logo=vercel\&logoColor=white) |                                                                                                |                                                                                                                 |                                                                                                      |                                                                                                   |
-
+### Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=Yashdotin&limit=5&theme=vision-friendly-dark&combine_all_yearly_contributions=true)
 
 ---
+[![](https://komarev.com/ghpvc/?username=Yashdotin&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## 🚀 Projects
-
-### 🎙️ AI Voice Assistant (Chanakya)
-**➡️ [LinkedIn Post](https://www.linkedin.com/posts/yash-awasthi-a7aa5b334_ai-voiceassistant-nvidia-activity-7319263848144801792-2OTd)**  
-Built using **Python**, integrates **NLP** and voice commands for natural interaction.
-
----
-
-### 🛒 E-Commerce Website (Inspired by Airbnb)
-**➡️ [Visit](https://wanderlust-kwz3.onrender.com/listings)**  
-Built using **Node.js + MongoDB** with a clean, modern UI.
-
----
-
-### 🌐 Arka – Chat Companion
-**➡️ [Visit](https://arka-oh4z.onrender.com/)**  
-A friendly chatbot that solves problems, cracks jokes, and chats like a buddy.
-
----
-
-### 🧮 MathSuite
-**➡️ [Visit](https://mathsuite.onrender.com/)**  
-A full-featured **math tools suite** with a clean UI. Fast, reliable, deployed on Render.
-
----
-
-### 🔳 QR Generator
-**➡️ [Visit](https://qr-1fb6.onrender.com/)**  
-Simple, fast **URL → QR code** generator built using Node/Express.
-
----
-
-### 🧩 PocketCalc
-**➡️ [Visit](https://pocketcalc-ce6p.onrender.com/)**  
-A lightweight, portable **online calculator** for quick everyday calculations.
----
-
-## 🤝 Open to Collaborate On
-
-- 🌐 Open-source **AI/ML projects**  
-- 🧠 **Hackathons** 
-- 💻 **Web Development projects**   
-
----
-
-
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/yashawasthi25?font=Baloo&ext=heatmap)
-
----
-
+  ## You can help me by Donating
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/https://buymeacoffee.com/yashubaba) 
 
