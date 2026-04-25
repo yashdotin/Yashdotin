@@ -1,35 +1,173 @@
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40px"> Namaste
+<h1 align="center">Yash Awasthi</h1>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=AI%2FML+Engineer;B.Tech+CSE+(AI+%26+ML);Machine+Learning+%E2%80%A2+Web+Development+%E2%80%A2+Data+Science;Building+smart,+clean,+and+impactful+systems&center=true&width=750&height=45&color=111111&background=FFFFFF" />
+</p>
 
+---
 
- I'm Yash , A developer currently pursuing B.Tech in computer Science Engineering (AI & ML) .I have strong interest in programming and web development,and i'm proficient in C,java and python. Exploring **Generative AI**, **LLMs**, and the art of **prompt engineering**.Skilled in  **AI/ML**, and building cool, impactful projects. Always curious to learn, innovate, and grow
+## About Me
+
+I am **Yash**, a Computer Science Engineering student specializing in **AI & ML**.
+
+My main interest is building systems that combine **machine learning, feature engineering, model optimization, and deployment**.  
+I enjoy turning raw data into useful predictions and creating end-to-end applications that are both intelligent and practical.
+
+I like working on projects that bring together **logic, experimentation, and usability**.  
+My goal is to keep growing as an **AI/ML engineer** while building solutions that feel useful, reliable, and technically strong.
 
 ---
 
-## Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://m.facebook.com/yash.awasthi.923171/) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/yash.awasthi.10) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/yash-awasthi-a7aa5b334) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yashawasthi854@gmail.com) 
+## Current Focus
 
-# GitHub Metrics:
-![](https://github-readme-stats.shion.dev/api?username=Yashdotin&theme=vision-friendly-dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Yashdotin&theme=vision-friendly-dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Yashdotin&theme=vision-friendly-dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-## GitHub Collection 
-![](https://github-profile-trophy.vercel.app/?username=Yashdotin&theme=vision-friendly-dark&no-frame=false&no-bg=false&margin-w=4)
-
-# Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Gunicorn](https://img.shields.io/badge/gunicorn-%298729.svg?style=for-the-badge&logo=gunicorn&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-
-### Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Yashdotin&limit=5&theme=vision-friendly-dark&combine_all_yearly_contributions=true)
+- Strengthening my **machine learning** and problem-solving skills
+- Practicing **feature engineering, data cleaning, encoding, and scaling**
+- Building and comparing models using **scikit-learn**
+- Improving **evaluation skills** with precision, recall, F1-score, and confusion matrix
+- Developing deployed ML + web applications using **Python, Django, and Render**
+- Preparing for internships and real-world product development
 
 ---
-[![](https://komarev.com/ghpvc/?username=Yashdotin&icon=0&color=0)](https://visitcount.itsvg.in)
 
-  ## You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/https://buymeacoffee.com/yashubaba) 
+## Tech Stack & Tools
 
+### Languages
+
+<p align="left">
+  <img src="https://img.shields.io/badge/C-000000?style=flat-square&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-000000?style=flat-square&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=white" />
+</p>
+
+### Web Development
+
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-000000?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-000000?style=flat-square&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-000000?style=flat-square&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gunicorn-000000?style=flat-square&logo=gunicorn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white" />
+</p>
+
+### Databases
+
+<p align="left">
+  <img src="https://img.shields.io/badge/MongoDB-000000?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-000000?style=flat-square&logo=mysql&logoColor=white" />
+</p>
+
+### AI / ML & Data Science
+
+<p align="left">
+  <img src="https://img.shields.io/badge/scikit--learn-000000?style=flat-square&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-000000?style=flat-square&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-000000?style=flat-square&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-000000?style=flat-square&logo=matplotlib&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seaborn-000000?style=flat-square&logo=python&logoColor=white" />
+</p>
+
+### Tools & Platforms
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-000000?style=flat-square&logo=visual%20studio%20code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google%20Colab-000000?style=flat-square&logo=google-colab&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-000000?style=flat-square&logo=jupyter&logoColor=white" />
+</p>
+
+---
+
+## GitHub Analytics
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Yashdotin&show_icons=true&theme=graywhite&hide_border=true&bg_color=ffffff&title_color=111111&text_color=111111&icon_color=111111"
+    alt="GitHub Stats"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=Yashdotin&theme=graywhite&hide_border=true&background=ffffff&stroke=111111&ring=111111&fire=111111&currStreakLabel=111111"
+    alt="GitHub Streak"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Yashdotin&theme=github-light&hide_border=true&bg_color=ffffff&color=111111&line=111111&point=111111&area=true"
+    alt="GitHub Activity Graph"
+  />
+</p>
+
+---
+
+## What I Enjoy Building
+
+- Machine learning applications that solve real problems
+- Prediction systems with clean model pipelines
+- Web apps powered by ML models
+- Data-driven tools with thoughtful interfaces
+- Automation projects that reduce manual work
+- Full-stack applications with practical user value
+
+---
+
+## What I Am Exploring Now
+
+- Feature engineering workflows
+- Model comparison and selection
+- Hyperparameter tuning and optimization
+- Better evaluation using precision, recall, F1-score, and confusion matrix
+- End-to-end ML deployment with Python and Django
+- Scalable project structure for production-ready systems
+
+---
+
+## Some Work I’ve Built
+
+- **Heart Risk Prediction System** — built with scikit-learn, feature engineering, multiple model comparison, and deployed on Render
+- **MegaPixel Creations** — a full-stack photography platform using Django with image handling, gallery management, and responsive UI
+
+---
+
+## Fun Dev Quote
+
+> “There are only two hard things in Computer Science: cache invalidation, naming things, and off-by-one errors.”
+
+---
+
+## Connect With Me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:yashawasthi854@gmail.com">
+    <img src="https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/yash.awasthi.10" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-000000?style=flat-square&logo=instagram&logoColor=white" />
+  </a>
+</p>
+
+---
+
+## Profile Views
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Yashdotin&style=flat-square&color=111111&label=Profile+Views" alt="Profile Views" />
+</p>
+
+---
+
+## Support My Work
+
+<p align="center">
+  <a href="https://buymeacoffee.com/yashubaba" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-000000?style=for-the-badge&logo=buymeacoffee&logoColor=white" />
+  </a>
+</p>
