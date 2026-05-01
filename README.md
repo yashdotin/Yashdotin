@@ -136,7 +136,7 @@ My goal is to keep growing as an **AI/ML engineer** while building solutions tha
 
 ## Fun Dev Quote
 
-> “There are only two hard things in Computer Science: cache invalidation, naming things, and off-by-one errors.”
+> There are only two hard things in Computer Science: cache invalidation, naming things, and off-by-one errors.
 
 ---
 
