@@ -4,9 +4,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&duration=3500&pause=1200&color=111111&center=true&vCenter=true&width=850&lines=AI%2FML+Engineer;Machine+Learning+%7C+Data+Science;Building+Intelligent+Systems+with+Python+and+Django" />
 </p>
 
-<p align="center">
-Building practical AI systems through machine learning, data science, and backend engineering.
-</p>
+
 
 <p align="center">
 
@@ -184,30 +182,29 @@ My primary interests include
 # GitHub Analytics
 
 <p align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Yashdotin&show_icons=true&theme=graywhite&hide_border=true&bg_color=ffffff&title_color=111111&text_color=111111&icon_color=111111"/>
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Yashdotin&theme=graywhite&hide_border=true&background=ffffff&stroke=111111&ring=111111&fire=111111&currStreakLabel=111111"/>
-
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=Yashdotin&show_icons=true&theme=graywhite&hide_border=true&bg_color=ffffff&title_color=111111&text_color=111111&icon_color=111111"
+    alt="GitHub Stats"
+  />
 </p>
 
 <p align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashdotin&layout=compact&theme=graywhite&hide_border=true&bg_color=ffffff&title_color=111111&text_color=111111"/>
-
-<img width="49%" src="https://github-profile-trophy.vercel.app/?username=Yashdotin&theme=flat&no-frame=true&no-bg=true&margin-w=8"/>
-
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com/?user=Yashdotin&theme=graywhite&hide_border=true&background=ffffff&stroke=111111&ring=111111&fire=111111&currStreakLabel=111111"
+    alt="GitHub Streak"
+  />
 </p>
 
 <p align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yashdotin&theme=github-light&hide_border=true&bg_color=ffffff&color=111111&line=111111&point=111111&area=true"/>
-
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Yashdotin&theme=github-light&hide_border=true&bg_color=ffffff&color=111111&line=111111&point=111111&area=true"
+    alt="GitHub Activity Graph"
+  />
 </p>
 
 ---
 
-# GitHub Activity
+# ..
 
 <p align="center">
 
@@ -237,7 +234,7 @@ My primary interests include
 </p>
 
 ---
-## Fun Dev Quote
+# Fun Dev Quote
 <p align="center">
 
 
