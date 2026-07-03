@@ -108,15 +108,6 @@ A machine learning application for predicting cardiovascular risk using structur
 
 `Python` `Scikit-Learn` `Pandas` `NumPy` `Matplotlib` `Django`
 
-<p>
-<a href="YOUR_GITHUB_LINK">
-<img src="https://img.shields.io/badge/Repository-000000?style=flat-square&logo=github&logoColor=white"/>
-</a>
-
-<a href="YOUR_LIVE_LINK">
-<img src="https://img.shields.io/badge/Live_Demo-000000?style=flat-square"/>
-</a>
-</p>
 
 </td>
 
@@ -145,13 +136,7 @@ A full-stack photography platform focused on simplicity, performance, and respon
 
 <p>
 
-<a href="YOUR_GITHUB_LINK">
-<img src="https://img.shields.io/badge/Repository-000000?style=flat-square&logo=github&logoColor=white"/>
-</a>
 
-<a href="YOUR_LIVE_LINK">
-<img src="https://img.shields.io/badge/Live_Demo-000000?style=flat-square"/>
-</a>
 
 </p>
 
@@ -170,10 +155,8 @@ My primary interests include
 - Machine Learning
 - Data Science
 - Backend Engineering
-- Model Deployment
 - Feature Engineering
 - Automation
-- Full-Stack Development
 
 ---
 
