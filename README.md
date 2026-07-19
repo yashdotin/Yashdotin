@@ -1,24 +1,16 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Yash Awasthi" width="100%"/>
+  <img src="https://raw.githubusercontent.com/Yashdotin/Yashdotin/main/assets/banner.svg" alt="Yash Awasthi" width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334">
-    <img src="https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=D4A017&labelColor=0A0A0A"/>
-  </a>
-  <a href="mailto:yashawasthi854@gmail.com">
-    <img src="https://img.shields.io/badge/Email-black?style=for-the-badge&logo=gmail&logoColor=D4A017&labelColor=0A0A0A"/>
-  </a>
-  <a href="https://www.instagram.com/yash.awasthi.10">
-    <img src="https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=D4A017&labelColor=0A0A0A"/>
-  </a>
-  <a href="https://yashs.online">
-    <img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=vercel&logoColor=D4A017&labelColor=0A0A0A"/>
-  </a>
+  <code><a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334">LinkedIn</a></code> &nbsp;·&nbsp;
+  <code><a href="mailto:yashawasthi854@gmail.com">Email</a></code> &nbsp;·&nbsp;
+  <code><a href="https://www.instagram.com/yash.awasthi.10">Instagram</a></code> &nbsp;·&nbsp;
+  <code><a href="https://yashs.online">Portfolio</a></code>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Yashdotin&style=for-the-badge&color=0A0A0A&labelColor=0A0A0A&label=PROFILE+VIEWS"/>
+  <img src="https://komarev.com/ghpvc/?username=Yashdotin&style=flat-square&color=0A0A0A&label=PROFILE+VIEWS"/>
 </p>
 
 ---
@@ -110,14 +102,6 @@ Full-stack photography platform for a professional photographer.
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yashdotin&theme=react-dark&hide_border=true&bg_color=0A0A0A&color=4FD1C5&line=D4A017&point=EDEDED&area=true"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashdotin&layout=compact&theme=dark&hide_border=true&bg_color=0A0A0A&title_color=D4A017&text_color=EDEDED"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yashdotin&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8"/>
-</p>
-
 ---
 
 ### `contribution --snake`
@@ -133,9 +117,9 @@ Full-stack photography platform for a professional photographer.
 ### `connect --with-me`
 
 <p align="center">
-  <a href="mailto:yashawasthi854@gmail.com"><img src="https://img.shields.io/badge/Email-black?style=for-the-badge&logo=gmail&logoColor=D4A017&labelColor=0A0A0A"/></a>
-  <a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334"><img src="https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=D4A017&labelColor=0A0A0A"/></a>
-  <a href="https://www.instagram.com/yash.awasthi.10"><img src="https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=D4A017&labelColor=0A0A0A"/></a>
+  <code><a href="mailto:yashawasthi854@gmail.com">Email</a></code> &nbsp;·&nbsp;
+  <code><a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334">LinkedIn</a></code> &nbsp;·&nbsp;
+  <code><a href="https://www.instagram.com/yash.awasthi.10">Instagram</a></code>
 </p>
 
 <p align="center">

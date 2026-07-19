@@ -13,9 +13,10 @@ Yashdotin/
 
 ## Why this version is more reliable
 
-- The old version used ~25 separate shields.io badge calls for skill icons. GitHub's image cache (camo) grabbed one failed/rate-limited request and served broken icons for all of them afterward. This version uses **skillicons.dev**, which renders a whole row of icons in a single request — far less likely to break, and it looks cleaner too.
-- The banner at the top is a local SVG (`assets/banner.svg`) — it lives in your own repo, so it can never go down or get rate-limited like an external badge service can.
-- Stats widgets (contribution graph, streak, top languages, trophies) are unchanged — those come from `vercel.app` / `demolab.com` services and were rendering fine in your screenshot.
+- **Skill icons**: switched to skillicons.dev, which renders each row as one image request instead of ~25 separate shields.io calls. This is what fixed your stack section already.
+- **Banner**: now points to the absolute `raw.githubusercontent.com/Yashdotin/Yashdotin/main/assets/banner.svg` URL instead of a relative `./assets/banner.svg` path. Relative paths don't always resolve correctly on GitHub's profile-page rendering — the absolute raw URL always works as long as `assets/banner.svg` exists on your `main` branch.
+- **Social links & footer**: dropped shields.io badge images entirely and replaced with plain styled text links. Shields.io broke twice in a row on your end (same badges, same failure) — text links can never "fail to load" since there's no image involved.
+- **Removed top-langs and trophy widgets**: these hit GitHub's API more heavily and are the most rate-limit-prone of the stats cards. Not worth keeping if they're going to be broken half the time. The main stats card, streak, and activity graph are the reliable ones and stayed.
 
 ## Optional: activate the contribution snake
 
