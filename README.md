@@ -1,21 +1,19 @@
-<h1 align="center">Yash Awasthi</h1>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3500&pause=1200&color=D4A017&center=true&vCenter=true&width=850&lines=AI%2FML+Engineer;Machine+Learning+%7C+Data+Science;Building+Intelligent+Systems+with+Python+and+Django" />
+  <img src="./assets/banner.svg" alt="Yash Awasthi" width="100%"/>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334">
-    <img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=D4A017"/>
+    <img src="https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=D4A017&labelColor=0A0A0A"/>
   </a>
   <a href="mailto:yashawasthi854@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=D4A017"/>
+    <img src="https://img.shields.io/badge/Email-black?style=for-the-badge&logo=gmail&logoColor=D4A017&labelColor=0A0A0A"/>
   </a>
   <a href="https://www.instagram.com/yash.awasthi.10">
-    <img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=D4A017"/>
+    <img src="https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=D4A017&labelColor=0A0A0A"/>
   </a>
   <a href="https://yashs.online">
-    <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=vercel&logoColor=D4A017"/>
+    <img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=vercel&logoColor=D4A017&labelColor=0A0A0A"/>
   </a>
 </p>
 
@@ -40,46 +38,27 @@ I design intelligent software that ties together **machine learning, feature eng
 ### `stack --list`
 
 **Languages**
+
 <p align="left">
-<img src="https://img.shields.io/badge/C-0A0A0A?style=flat-square&logo=c&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/C%2B%2B-0A0A0A?style=flat-square&logo=cplusplus&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/Python-0A0A0A?style=flat-square&logo=python&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/Java-0A0A0A?style=flat-square&logo=openjdk&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/JavaScript-0A0A0A?style=flat-square&logo=javascript&logoColor=D4A017"/>
+  <img src="https://skillicons.dev/icons?i=c,cpp,py,java,js&theme=dark" />
 </p>
 
 **Web & Backend**
+
 <p align="left">
-<img src="https://img.shields.io/badge/HTML5-0A0A0A?style=flat-square&logo=html5&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/CSS3-0A0A0A?style=flat-square&logo=css3&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/Next.js-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/Django-0A0A0A?style=flat-square&logo=django&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/Tailwind%20CSS-0A0A0A?style=flat-square&logo=tailwindcss&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/Vercel-0A0A0A?style=flat-square&logo=vercel&logoColor=D4A017"/>
+  <img src="https://skillicons.dev/icons?i=html,css,nextjs,django,tailwind,vercel&theme=dark" />
 </p>
 
 **Databases**
+
 <p align="left">
-<img src="https://img.shields.io/badge/MongoDB-0A0A0A?style=flat-square&logo=mongodb&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/MySQL-0A0A0A?style=flat-square&logo=mysql&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/PostgreSQL-0A0A0A?style=flat-square&logo=postgresql&logoColor=D4A017"/>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres&theme=dark" />
 </p>
 
-**AI / ML & Data Science**
-<p align="left">
-<img src="https://img.shields.io/badge/scikit--learn-0A0A0A?style=flat-square&logo=scikitlearn&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/NumPy-0A0A0A?style=flat-square&logo=numpy&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/Pandas-0A0A0A?style=flat-square&logo=pandas&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/Matplotlib-0A0A0A?style=flat-square&logo=plotly&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/Jupyter-0A0A0A?style=flat-square&logo=jupyter&logoColor=D4A017"/>
-</p>
+**AI / ML & Tools**
 
-**Tools**
 <p align="left">
-<img src="https://img.shields.io/badge/Git-0A0A0A?style=flat-square&logo=git&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/GitHub-0A0A0A?style=flat-square&logo=github&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/VS%20Code-0A0A0A?style=flat-square&logo=visualstudiocode&logoColor=D4A017"/>
-<img src="https://img.shields.io/badge/Google%20Colab-0A0A0A?style=flat-square&logo=googlecolab&logoColor=D4A017"/>
+  <img src="https://skillicons.dev/icons?i=sklearn,numpy,pandas,py,git,github,vscode&theme=dark" />
 </p>
 
 ---
@@ -147,16 +126,16 @@ Full-stack photography platform for a professional photographer.
   <img src="https://raw.githubusercontent.com/Yashdotin/Yashdotin/output/github-contribution-grid-snake-dark.svg"/>
 </p>
 
-<sub>To activate the snake: add the <code>Platane/snk</code> GitHub Action to this repo (runs daily, pushes to an <code>output</code> branch). Ask me and I'll set up the workflow file.</sub>
+<sub>To activate: add the <code>Platane/snk</code> GitHub Action to this repo (runs daily, pushes to an <code>output</code> branch). Say the word and I'll write that workflow file for you.</sub>
 
 ---
 
 ### `connect --with-me`
 
 <p align="center">
-  <a href="mailto:yashawasthi854@gmail.com"><img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=D4A017"/></a>
-  <a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=D4A017"/></a>
-  <a href="https://www.instagram.com/yash.awasthi.10"><img src="https://img.shields.io/badge/Instagram-0A0A0A?style=for-the-badge&logo=instagram&logoColor=D4A017"/></a>
+  <a href="mailto:yashawasthi854@gmail.com"><img src="https://img.shields.io/badge/Email-black?style=for-the-badge&logo=gmail&logoColor=D4A017&labelColor=0A0A0A"/></a>
+  <a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334"><img src="https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=D4A017&labelColor=0A0A0A"/></a>
+  <a href="https://www.instagram.com/yash.awasthi.10"><img src="https://img.shields.io/badge/Instagram-black?style=for-the-badge&logo=instagram&logoColor=D4A017&labelColor=0A0A0A"/></a>
 </p>
 
 <p align="center">
