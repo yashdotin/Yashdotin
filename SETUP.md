@@ -1,46 +1,41 @@
-# Setup
+# Setup — read this part first
 
-## Folder structure
+**The images and snake weren't broken by a bad service — the files were just never pushed.** I checked your live repo directly: `assets/banner.png`, `assets/heart-risk.png`, `assets/megapixel.png`, and `.github/workflows/snake.yml` all return 404. Only `README.md` made it into the repo last time. This is a "files didn't get uploaded" problem, not a "GitHub broke" problem.
+
+## How to upload this correctly
+
+GitHub's web upload button does **not** preserve folder structure if you just drag files in from the repo's root "Add file → Upload files" screen — everything lands flat in the root instead of inside `assets/` or `.github/workflows/`. To do it right on mobile/web:
+
+1. Go to your repo → click **Add file → Create new file**
+2. In the filename box, type the **full path including folders**: `assets/banner.png` — GitHub auto-creates the folder when you type a `/` in the name
+3. Since `Create new file` is for text, use **Add file → Upload files** instead, but first navigate *into* the `assets` folder (create it first via step 2 with a placeholder, then upload into it) — or just drag the whole `assets` folder from your file manager onto the upload zone; GitHub does preserve structure when you drop an entire folder, just not loose files.
+4. Repeat for `.github/workflows/snake.yml` — you'll need to create `.github`, then `workflows` inside it, then upload/create `snake.yml` there.
+
+Easiest path if you're on desktop: clone the repo locally (or use GitHub Desktop), drop these files into the right folders, then commit + push. Folder structure is guaranteed correct that way.
+
+## Folder structure (what it should look like when done)
 
 ```
-Yashdotin/                              (your profile repo)
+Yashdotin/
 ├── README.md
 ├── .github/
 │   └── workflows/
-│       └── snake.yml                   ← generates the animated contribution snake
+│       └── snake.yml
 └── assets/
-    ├── banner.png                      ← REPLACE: your real header banner (1200×300 recommended)
-    ├── heart-risk.png                  ← REPLACE: screenshot of the Heart Risk Streamlit app
-    └── megapixel.png                   ← REPLACE: screenshot of MegaPixel Creations
+    ├── banner.png
+    ├── heart-risk.png
+    └── megapixel.png
 ```
-
-Push all of this to `Yashdotin/Yashdotin`, keeping the exact same paths. That's the whole setup — no config needed beyond replacing the 3 placeholder images.
 
 ## Replacing the placeholder images
 
-The 3 PNGs in `assets/` right now are just placeholders with text on them so the README doesn't 404 before you add real ones. Swap them out for your own — same filenames, any reasonable size:
+The 3 PNGs in `assets/` are placeholders with text on them. Swap for your own — same filenames:
 
-- **banner.png** — a header image. Since your portfolio (yashs.online) already has a terminal/code-editor look with JetBrains Mono + amber/teal accents, a screenshot or graphic in that same style will make the profile feel like one connected brand instead of a separate thing.
-- **heart-risk.png** — a screenshot of the Streamlit app in action (the prediction form, or a result screen).
-- **megapixel.png** — a screenshot of the MegaPixel Creations site (homepage or gallery view).
-
-Recommended: crop screenshots to roughly a 3:2 ratio so they sit cleanly next to the text in the table.
-
-## Why this version has no image-loading glitches
-
-Every image that broke before was a **third-party service being hit with too many parallel requests or getting rate-limited** — not something in your control. This version only keeps external calls to services that:
-
-1. Rendered correctly in your own screenshots already (`github-readme-stats`, `streak-stats`, `activity-graph`, `komarev` view counter), and
-2. Are single-request-per-widget, not dozens of small badge calls.
-
-Everything else — banner, project screenshots — is now a **local image in your own repo**, so nothing can rate-limit or cache-fail it. The only way it breaks is if a filename doesn't match, which is why the structure above matters.
+- **banner.png** — header image, ~1200×300. Match your yashs.online look (JetBrains Mono, amber/teal, terminal feel) so the profile and portfolio feel like one brand.
+- **heart-risk.png** — screenshot of the Streamlit app.
+- **megapixel.png** — screenshot of MegaPixel Creations.
 
 ## Activating the snake
 
-`.github/workflows/snake.yml` is already included and configured for your username. Once you push it:
+Once `.github/workflows/snake.yml` actually exists in the repo (see above), it runs automatically on the next push to `main`. Check the **Actions** tab to watch it complete — first run can take a couple minutes. It pushes to an `output` branch, which the README already points to, so nothing else needs to change once the file is really there.
 
-- It runs automatically on every push to `main`, and every 6 hours after that on a schedule
-- First run can take a few minutes — check the **Actions** tab in your repo to watch it complete
-- Once done, it pushes the generated SVG to an `output` branch, which the README already points to
-
-No manual setup beyond pushing the file.

@@ -3,6 +3,12 @@
 </p>
 
 <p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=D4A017&center=true&vCenter=true&width=600&lines=B.Tech+CSE+(AI+%26+ML)+%40+BBDITM+Lucknow;Building+ML+systems%2C+data+to+deployment;Open+to+internships+%2F+full-time+roles" alt="Typing SVG" />
+  </a>
+</p>
+
+<p align="center">
   <code><a href="https://yashs.online">yashs.online</a></code> &nbsp;·&nbsp;
   <code><a href="mailto:yashawasthi854@gmail.com">Email</a></code> &nbsp;·&nbsp;
   <code><a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334">LinkedIn</a></code> &nbsp;·&nbsp;
@@ -15,64 +21,29 @@
 
 <br/>
 
-```
-$ whoami
-```
+## the short version
 
-```
-> Yash Awasthi — AI/ML Engineer in the making
-> B.Tech CSE (AI & ML), final year @ BBDITM Lucknow — batch 2027
-> Building ML systems end-to-end: data → model → deployment
-> Currently in placement season — open to internships, full-time roles, collaborations
-```
+I'm in my final year of CSE (AI & ML) at BBDITM Lucknow, and most of what's in this repo comes from actually trying to ship things rather than just studying them. I started with the usual — data cleaning, a few Kaggle notebooks, model after model chasing a better score — but the part that stuck with me was always what happens *after* the model works: wrapping it in something a person can actually open and use. That's the thread running through everything below — a heart-risk model isn't worth much sitting in a notebook, so it's sitting in a Streamlit app instead. A photography portfolio isn't a landing page, it's a real admin panel a real photographer logs into every week.
 
-I design intelligent software that ties together **machine learning, feature engineering, model optimization, and backend deployment** into things that actually run in production — not just notebooks. My focus spans the full lifecycle of an ML system: preparing data, training and evaluating models, and shipping the result somewhere a real user can touch it.
-
-<br/>
-
-```
-$ cat highlights.txt
-```
-
-- 🚀 **2 production-deployed projects** — not just repos, live and serving real traffic
-- 🧩 **~120 LeetCode problems solved** — DSA fundamentals backing the ML work
-- 🏆 **Top-8 finish, Kaggle competition** — competitive ML under real constraints
-- 📄 **IEEE-style research project in progress** — multi-modal fake news detection combining transformers, NLP, and a graph neural network for virality prediction
-- 🛠️ Comfortable across the stack: model training → API/backend → deployed frontend
+Right now I'm deep in placement season, so if you're hiring for anything AI/ML or backend-shaped — my inbox is open.
 
 <br/>
 
 ---
 
-### `stack --list`
+### what I actually build with
 
-**Languages**
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=c,cpp,py,java,js&theme=dark" />
-</p>
-
-**Web & Backend**
+Not going to list every tool I've ever touched — here's what I reach for most:
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,django,nextjs,tailwind,vercel&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=py,sklearn,django,js,html,css,mysql&theme=dark" />
 </p>
 
-**Databases**
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres&theme=dark" />
-</p>
-
-**AI / ML & Tools**
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=sklearn,numpy,pandas,py,git,github,vscode&theme=dark" />
-</p>
+Python and Scikit-learn for the modeling side, Django for anything that needs a real backend, and plain HTML/CSS/JS when a project doesn't need a framework's overhead to look good.
 
 ---
 
-### `ls ./projects`
+### the projects
 
 <table>
 <tr>
@@ -82,12 +53,8 @@ $ cat highlights.txt
 <td width="55%" valign="top">
 
 **❤️ Heart Risk Prediction System**
-ML app estimating cardiovascular risk from clinical data, served through an interactive Streamlit interface.
 
-- Feature engineering + preprocessing pipeline on structured clinical data
-- Multiple classifiers trained and compared before selecting the best performer
-- **85% accuracy** on held-out test data
-- Real-time predictions through a live Streamlit form — no code required to use it
+This one started as a straightforward question — can a model flag cardiovascular risk early enough to matter? I cleaned and engineered features from clinical data, ran a handful of classifiers against each other, and kept the one that actually generalized instead of the one with the flashiest training score. It landed at 85% accuracy on data it hadn't seen. Then, instead of leaving it as a notebook cell, I wrapped it in Streamlit — so anyone can put in a patient's numbers and get a real-time read, no code required.
 
 <code>Python</code> <code>Scikit-learn</code> <code>Pandas</code> <code>Streamlit</code>
 
@@ -100,12 +67,8 @@ ML app estimating cardiovascular risk from clinical data, served through an inte
 <td width="55%" valign="top">
 
 **📸 MegaPixel Creations**
-Full-stack photography portfolio & booking platform, built for a working photographer and live in production.
 
-- Custom admin dashboard for gallery/content management — no code changes needed
-- Auth system + image upload pipeline, built on Django
-- Hand-built responsive frontend — HTML/CSS/JS, no framework overhead
-- Serving real client traffic today
+Built for a working photographer in Lucknow who needed more than a template site. He needed a place to log in, drop in a shoot's worth of photos, and have it just appear on the gallery — no touching code, no calling a developer every time. So that's what this is: a Django backend handling auth and uploads, an admin dashboard he actually uses, and a frontend I hand-built in HTML/CSS/JS to keep it fast and framework-free. It's live and taking real client traffic today.
 
 <code>Django</code> <code>Python</code> <code>HTML5</code> <code>CSS3</code> <code>JavaScript</code> <code>MySQL</code>
 
@@ -115,13 +78,9 @@ Full-stack photography portfolio & booking platform, built for a working photogr
 
 ---
 
-### `cat education.md`
+### where this is all happening
 
-```
-B.Tech, Computer Science Engineering — AI & ML
-Babu Banarasi Das Institute of Technology and Management (BBDITM), Lucknow
-Batch of 2027 — currently in final year, 7th semester
-```
+I'm finishing up a B.Tech in Computer Science Engineering (AI & ML) at BBDITM, Lucknow — batch of 2027, currently in my final year.
 
 ---
 
