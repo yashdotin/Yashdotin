@@ -106,8 +106,6 @@ I'm finishing up a B.Tech in Computer Science Engineering (AI & ML) at BBDITM, L
   <img src="https://raw.githubusercontent.com/Yashdotin/Yashdotin/output/github-contribution-grid-snake-dark.svg"/>
 </p>
 
-<sub>Live once the included <code>.github/workflows/snake.yml</code> runs for the first time (auto-triggers on push, or run it manually from the Actions tab).</sub>
-
 ---
 
 ### `connect --with-me`
