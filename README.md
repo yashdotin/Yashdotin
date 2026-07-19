@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Yash Awasthi" width="100%"/>
+  <img src="./banner.png" alt="Yash Awasthi" width="100%"/>
 </p>
 
 <p align="center">
@@ -48,7 +48,7 @@ Python and Scikit-learn for the modeling side, Django for anything that needs a 
 <table>
 <tr>
 <td width="45%" valign="top">
-<img src="./assets/heart-risk.png" width="100%"/>
+<img src="./heart-risk.png" width="100%"/>
 </td>
 <td width="55%" valign="top">
 
@@ -62,7 +62,7 @@ This one started as a straightforward question — can a model flag cardiovascul
 </tr>
 <tr>
 <td width="45%" valign="top">
-<img src="./assets/megapixel.png" width="100%"/>
+<img src="./megapixel.png" width="100%"/>
 </td>
 <td width="55%" valign="top">
 
