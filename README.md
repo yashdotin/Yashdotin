@@ -25,6 +25,8 @@
 
 I design intelligent software that ties together **machine learning, feature engineering, model optimization, and backend deployment** into things that actually run in production — not just notebooks.
 
+Currently open to **internships / full-time roles / collaborations** in AI-ML and backend engineering.
+
 ---
 
 ### `stack --list`
@@ -57,34 +59,24 @@ I design intelligent software that ties together **machine learning, feature eng
 
 ### `ls ./projects`
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<b>Heart Risk Prediction System</b> — ML app estimating cardiovascular risk from clinical data<br/>
+<sub>
+· trained and compared multiple classification models, tuned for best generalization<br/>
+· feature engineering pipeline on structured clinical data<br/>
+· 85% accuracy · interactive Streamlit interface for real-time predictions<br/>
+</sub>
+<code>Python · Scikit-learn · Pandas · NumPy · Streamlit</code>
 
-**Heart Risk Prediction System**
-ML app predicting cardiovascular risk from clinical data.
+<br/>
 
-- Feature engineering pipeline
-- Multi-model comparison + hyperparameter tuning
-- 85% accuracy, deployed on Render
-
-`Python` `Scikit-Learn` `Pandas` `Django`
-
-</td>
-<td width="50%" valign="top">
-
-**MegaPixel Creations**
-Full-stack photography platform for a professional photographer.
-
-- OTP-verified contact flow + admin dashboard
-- Direct-to-Cloudinary uploads, slideshow gallery
-- Migrated Django → Next.js 14 + Tailwind
-
-`Next.js` `Tailwind` `Cloudinary`
-
-</td>
-</tr>
-</table>
+<b>MegaPixel Creations</b> — full-stack photography portfolio & booking platform for a working photographer<br/>
+<sub>
+· custom admin dashboard for gallery/content management, no code changes needed<br/>
+· auth system + image upload pipeline built on Django<br/>
+· responsive frontend, hand-built in HTML/CSS/JS — no framework overhead<br/>
+· live, in production, serving real client traffic<br/>
+</sub>
+<code>Django · Python · HTML5 · CSS3 · JavaScript · MySQL</code>
 
 ---
 
