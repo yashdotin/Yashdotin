@@ -1,31 +1,46 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Yashdotin/Yashdotin/main/assets/banner.svg" alt="Yash Awasthi" width="100%"/>
+  <img src="./assets/banner.png" alt="Yash Awasthi" width="100%"/>
 </p>
 
 <p align="center">
-  <code><a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334">LinkedIn</a></code> &nbsp;·&nbsp;
+  <code><a href="https://yashs.online">yashs.online</a></code> &nbsp;·&nbsp;
   <code><a href="mailto:yashawasthi854@gmail.com">Email</a></code> &nbsp;·&nbsp;
-  <code><a href="https://www.instagram.com/yash.awasthi.10">Instagram</a></code> &nbsp;·&nbsp;
-  <code><a href="https://yashs.online">Portfolio</a></code>
+  <code><a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334">LinkedIn</a></code> &nbsp;·&nbsp;
+  <code><a href="https://www.instagram.com/yash.awasthi.10">Instagram</a></code>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Yashdotin&style=flat-square&color=0A0A0A&label=PROFILE+VIEWS"/>
 </p>
 
----
-
-### `whoami`
+<br/>
 
 ```
+$ whoami
+```
+
+```
+> Yash Awasthi — AI/ML Engineer in the making
 > B.Tech CSE (AI & ML), final year @ BBDITM Lucknow — batch 2027
 > Building ML systems end-to-end: data → model → deployment
-> Currently in placement season, shipping projects, closing gaps
+> Currently in placement season — open to internships, full-time roles, collaborations
 ```
 
-I design intelligent software that ties together **machine learning, feature engineering, model optimization, and backend deployment** into things that actually run in production — not just notebooks.
+I design intelligent software that ties together **machine learning, feature engineering, model optimization, and backend deployment** into things that actually run in production — not just notebooks. My focus spans the full lifecycle of an ML system: preparing data, training and evaluating models, and shipping the result somewhere a real user can touch it.
 
-Currently open to **internships / full-time roles / collaborations** in AI-ML and backend engineering.
+<br/>
+
+```
+$ cat highlights.txt
+```
+
+- 🚀 **2 production-deployed projects** — not just repos, live and serving real traffic
+- 🧩 **~120 LeetCode problems solved** — DSA fundamentals backing the ML work
+- 🏆 **Top-8 finish, Kaggle competition** — competitive ML under real constraints
+- 📄 **IEEE-style research project in progress** — multi-modal fake news detection combining transformers, NLP, and a graph neural network for virality prediction
+- 🛠️ Comfortable across the stack: model training → API/backend → deployed frontend
+
+<br/>
 
 ---
 
@@ -40,7 +55,7 @@ Currently open to **internships / full-time roles / collaborations** in AI-ML an
 **Web & Backend**
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,nextjs,django,tailwind,vercel&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=html,css,django,nextjs,tailwind,vercel&theme=dark" />
 </p>
 
 **Databases**
@@ -59,24 +74,54 @@ Currently open to **internships / full-time roles / collaborations** in AI-ML an
 
 ### `ls ./projects`
 
-<b>Heart Risk Prediction System</b> — ML app estimating cardiovascular risk from clinical data<br/>
-<sub>
-· trained and compared multiple classification models, tuned for best generalization<br/>
-· feature engineering pipeline on structured clinical data<br/>
-· 85% accuracy · interactive Streamlit interface for real-time predictions<br/>
-</sub>
-<code>Python · Scikit-learn · Pandas · NumPy · Streamlit</code>
+<table>
+<tr>
+<td width="45%" valign="top">
+<img src="./assets/heart-risk.png" width="100%"/>
+</td>
+<td width="55%" valign="top">
 
-<br/>
+**❤️ Heart Risk Prediction System**
+ML app estimating cardiovascular risk from clinical data, served through an interactive Streamlit interface.
 
-<b>MegaPixel Creations</b> — full-stack photography portfolio & booking platform for a working photographer<br/>
-<sub>
-· custom admin dashboard for gallery/content management, no code changes needed<br/>
-· auth system + image upload pipeline built on Django<br/>
-· responsive frontend, hand-built in HTML/CSS/JS — no framework overhead<br/>
-· live, in production, serving real client traffic<br/>
-</sub>
-<code>Django · Python · HTML5 · CSS3 · JavaScript · MySQL</code>
+- Feature engineering + preprocessing pipeline on structured clinical data
+- Multiple classifiers trained and compared before selecting the best performer
+- **85% accuracy** on held-out test data
+- Real-time predictions through a live Streamlit form — no code required to use it
+
+<code>Python</code> <code>Scikit-learn</code> <code>Pandas</code> <code>Streamlit</code>
+
+</td>
+</tr>
+<tr>
+<td width="45%" valign="top">
+<img src="./assets/megapixel.png" width="100%"/>
+</td>
+<td width="55%" valign="top">
+
+**📸 MegaPixel Creations**
+Full-stack photography portfolio & booking platform, built for a working photographer and live in production.
+
+- Custom admin dashboard for gallery/content management — no code changes needed
+- Auth system + image upload pipeline, built on Django
+- Hand-built responsive frontend — HTML/CSS/JS, no framework overhead
+- Serving real client traffic today
+
+<code>Django</code> <code>Python</code> <code>HTML5</code> <code>CSS3</code> <code>JavaScript</code> <code>MySQL</code>
+
+</td>
+</tr>
+</table>
+
+---
+
+### `cat education.md`
+
+```
+B.Tech, Computer Science Engineering — AI & ML
+Babu Banarasi Das Institute of Technology and Management (BBDITM), Lucknow
+Batch of 2027 — currently in final year, 7th semester
+```
 
 ---
 
@@ -102,7 +147,7 @@ Currently open to **internships / full-time roles / collaborations** in AI-ML an
   <img src="https://raw.githubusercontent.com/Yashdotin/Yashdotin/output/github-contribution-grid-snake-dark.svg"/>
 </p>
 
-<sub>To activate: add the <code>Platane/snk</code> GitHub Action to this repo (runs daily, pushes to an <code>output</code> branch). Say the word and I'll write that workflow file for you.</sub>
+<sub>Live once the included <code>.github/workflows/snake.yml</code> runs for the first time (auto-triggers on push, or run it manually from the Actions tab).</sub>
 
 ---
 
@@ -111,7 +156,8 @@ Currently open to **internships / full-time roles / collaborations** in AI-ML an
 <p align="center">
   <code><a href="mailto:yashawasthi854@gmail.com">Email</a></code> &nbsp;·&nbsp;
   <code><a href="https://www.linkedin.com/in/yash-awasthi-a7aa5b334">LinkedIn</a></code> &nbsp;·&nbsp;
-  <code><a href="https://www.instagram.com/yash.awasthi.10">Instagram</a></code>
+  <code><a href="https://www.instagram.com/yash.awasthi.10">Instagram</a></code> &nbsp;·&nbsp;
+  <code><a href="https://yashs.online">Portfolio</a></code>
 </p>
 
 <p align="center">
