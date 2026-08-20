@@ -41,40 +41,7 @@ Not going to list every tool I've ever touched — here's what I reach for most:
 
 Python and Scikit-learn for the modeling side, Django for anything that needs a real backend, and plain HTML/CSS/JS when a project doesn't need a framework's overhead to look good.
 
----
 
-### the projects
-
-<table>
-<tr>
-<td width="45%" valign="top">
-<img src="./heart-risk.png" width="100%"/>
-</td>
-<td width="55%" valign="top">
-
-**❤️ Heart Risk Prediction System**
-
-This one started as a straightforward question — can a model flag cardiovascular risk early enough to matter? I cleaned and engineered features from clinical data, ran a handful of classifiers against each other, and kept the one that actually generalized instead of the one with the flashiest training score. It landed at 85% accuracy on data it hadn't seen. Then, instead of leaving it as a notebook cell, I wrapped it in Streamlit — so anyone can put in a patient's numbers and get a real-time read, no code required.
-
-<code>Python</code> <code>Scikit-learn</code> <code>Pandas</code> <code>Streamlit</code>
-
-</td>
-</tr>
-<tr>
-<td width="45%" valign="top">
-<img src="./megapixel.png" width="100%"/>
-</td>
-<td width="55%" valign="top">
-
-**📸 MegaPixel Creations**
-
-Built for a working photographer in Lucknow who needed more than a template site. He needed a place to log in, drop in a shoot's worth of photos, and have it just appear on the gallery — no touching code, no calling a developer every time. So that's what this is: a Django backend handling auth and uploads, an admin dashboard he actually uses, and a frontend I hand-built in HTML/CSS/JS to keep it fast and framework-free. It's live and taking real client traffic today.
-
-<code>Django</code> <code>Python</code> <code>HTML5</code> <code>CSS3</code> <code>JavaScript</code> <code>MySQL</code>
-
-</td>
-</tr>
-</table>
 
 ---
 
