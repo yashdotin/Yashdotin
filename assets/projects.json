@@ -2,7 +2,7 @@
   "_comment": "repo names have to match your actual GitHub repo slugs exactly, case included. if a run skips one with 'not found on the account', fix the slug here and re-run the Charts and cards workflow.",
   "projects": [
     {
-      "repo": "Kriya-AI",
+      "repo": "kriya",
       "description": "Personalized learning path recommender for the HCLTech AMPlified hackathon. Semantic embeddings, hybrid course scoring, adaptive confidence modeling, deterministic AI coach."
     },
     {
