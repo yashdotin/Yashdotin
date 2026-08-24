@@ -7,29 +7,31 @@
 - **Dot-matrix portrait added** at the top of the README (`assets/portrait.svg`), same treatment as Gargi's profile. Generate it from your own photo with `scripts/dotify.py` — see below.
 - New folders: `scripts/` (`cards.py`, `radar.py`, `dotify.py`) and two new workflows in `.github/workflows/`: `metrics.yml` and `cards.yml`. `Snake.yml` is untouched.
 
-## Generating your portrait
+## Portrait
 
-Needs Pillow: `pip install Pillow`. Pick a photo with a clean-ish background —
-square-ish framing works best.
+Already generated and committed (`assets/portrait.svg`) from the photo you sent —
+no action needed unless you want to swap it later.
+
+For the record, your source photo was shot in harsh midday backlight (bright sky,
+sunlit hair, face partly in shadow), and `--equalize` measures brightness against
+the *whole* square crop — which here is mostly sky and brick wall, not your face.
+That skewed the histogram hard enough that your face rendered as near-invisible
+dots against the dark background. Fix was to skip `--equalize` and lift exposure
+directly instead:
 
 ```bash
-python scripts/dotify.py your-photo.jpg -o assets/portrait --cols 100 --equalize --detail 0.5 --color
+python scripts/dotify.py your-photo.jpg -o assets/portrait --cols 110 --gamma 0.75 --detail 0.3 --color --square --focus 0.51,0.30 --circle
 ```
 
-- `--color` keeps real photo colours and writes a single `assets/portrait.svg`
-  (no dark/light split needed — the README already points at just that one file).
-- `--equalize` matters most for a face: a lit face against dark hair has a wider
-  tonal range than a dot ramp can show without it, so skip it and the render
-  blows out.
-- `--cols` is the size/detail dial — 100 is a solid default, 130 is sharper but
-  bigger.
-- Add `--circle` for a tight head-shot crop, `--square --focus 0.5,0.4` to
-  control the crop centre, or `--reveal` for a row-by-row load-in animation.
-- Full option list: `python scripts/dotify.py --help`, or see the comments Gargi
-  left in her own SETUP.md if you want the exact flag-by-flag reasoning.
-
-Commit `assets/portrait.svg` once you're happy with it — it's a static file,
-nothing regenerates it automatically.
+If you swap in a different photo later:
+- Start with these same flags, then look at the render — if the face is too dark,
+  lower `--gamma` further (0.6, 0.5); if it's blown out and pale, raise it back
+  toward 1.0.
+- `--focus X,Y` is fractions of the image, `0.5,0.5` is dead centre — nudge it
+  toward wherever your face actually sits in the frame.
+- `--equalize` is worth trying first on a portrait shot with even, front-on
+  lighting (indoor light, no strong backlight) — it's the harsh sun + huge sky
+  background combination specifically that broke it here.
 
 ## Folder structure (what it should look like when done)
 
