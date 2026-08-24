@@ -109,18 +109,18 @@ I'm finishing up a B.Tech in Computer Science Engineering (AI & ML) at BBDITM, L
 <table>
 <tr>
 <td width="50%">
-  <a href="https://github.com/Yashdotin/Kriya-AI">
+  <a href="https://github.com/Yashdotin/kriya">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Kriya-AI-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-Kriya-AI-light.svg">
-      <img src="assets/card-Kriya-AI-dark.svg" width="420" alt="Kriya AI">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/card-kriya-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-kriya-light.svg">
+      <img src="assets/card-kriya-dark.svg" width="420" alt="Kriya AI">
     </picture>
   </a>
 </td>
 <td width="50%">
   <a href="https://github.com/Yashdotin/Aptivio">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Aptivio-dark.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/card-Aptivio-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="assets/card-Aptivio-light.svg">
       <img src="assets/card-Aptivio-dark.svg" width="420" alt="Aptivio">
     </picture>
@@ -129,20 +129,20 @@ I'm finishing up a B.Tech in Computer Science Engineering (AI & ML) at BBDITM, L
 </tr>
 <tr>
 <td width="50%">
-  <a href="https://github.com/Yashdotin/Neural-Nitpicker">
+  <a href="https://github.com/Yashdotin/neural-nitpicker">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Neural-Nitpicker-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-Neural-Nitpicker-light.svg">
-      <img src="assets/card-Neural-Nitpicker-dark.svg" width="420" alt="Neural Nitpicker">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/card-neural-nitpicker-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-neural-nitpicker-light.svg">
+      <img src="assets/card-neural-nitpicker-dark.svg" width="420" alt="Neural Nitpicker">
     </picture>
   </a>
 </td>
 <td width="50%">
-  <a href="https://github.com/Yashdotin/Wanderlust">
+  <a href="https://github.com/Yashdotin/wanderlust">
     <picture>
-      <source media="(prefers-color-scheme: dark)"  srcset="assets/card-Wanderlust-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="assets/card-Wanderlust-light.svg">
-      <img src="assets/card-Wanderlust-dark.svg" width="420" alt="Wanderlust">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/card-wanderlust-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/card-wanderlust-light.svg">
+      <img src="assets/card-wanderlust-dark.svg" width="420" alt="Wanderlust">
     </picture>
   </a>
 </td>
@@ -153,10 +153,10 @@ I'm finishing up a B.Tech in Computer Science Engineering (AI & ML) at BBDITM, L
 
 | project | live | stack |
 |---|---|---|
-| **[Kriya AI](https://github.com/Yashdotin/Kriya-AI)** | [kriya-ai-neon.vercel.app](https://kriya-ai-neon.vercel.app) | `FastAPI` `Next.js` `sentence-transformers` |
+| **[Kriya AI](https://github.com/Yashdotin/kriya)** | [kriya-ai-neon.vercel.app](https://kriya-ai-neon.vercel.app) | `FastAPI` `Next.js` `sentence-transformers` |
 | **[Aptivio](https://github.com/Yashdotin/Aptivio)** | [aptivio-aura.vercel.app](https://aptivio-aura.vercel.app) | `FastAPI` `Next.js` `TF-IDF` |
-| **[Neural Nitpicker](https://github.com/Yashdotin/Neural-Nitpicker)** | — | `React` `Node.js` `Gemini` |
-| **[Wanderlust](https://github.com/Yashdotin/Wanderlust)** | — | `Node.js` `Express` `MongoDB` |
+| **[Neural Nitpicker](https://github.com/Yashdotin/neural-nitpicker)** | — | `React` `Node.js` `Gemini` |
+| **[Wanderlust](https://github.com/Yashdotin/wanderlust)** | — | `Node.js` `Express` `MongoDB` |
 
 </sub>
 
