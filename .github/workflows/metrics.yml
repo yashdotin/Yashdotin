@@ -2,7 +2,6 @@ name: Metrics
 
 on:
   schedule:
-    # every 6 hours
     - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
@@ -15,9 +14,6 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      # ------------------------------------------------------------------ #
-      # The 3D isometric contribution calendar (the one from the inspo)
-      # ------------------------------------------------------------------ #
       - name: Isometric contribution calendar
         uses: lowlighter/metrics@latest
         with:
@@ -29,9 +25,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      # ------------------------------------------------------------------ #
-      # Coding habits: commits per hour of day, per weekday, language activity
-      # ------------------------------------------------------------------ #
       - name: Coding habits
         uses: lowlighter/metrics@latest
         with:
@@ -47,9 +40,6 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_trim: yes
 
-      # ------------------------------------------------------------------ #
-      # Language breakdown (bytes-weighted, recent-activity weighted)
-      # ------------------------------------------------------------------ #
       - name: Languages
         uses: lowlighter/metrics@latest
         with:
@@ -64,10 +54,6 @@ jobs:
           plugin_languages_indepth: no
           plugin_languages_sections: most-used
 
-      # ------------------------------------------------------------------ #
-      # Achievement badges - the self-hosted replacement for
-      # github-profile-trophy, whose public instance returns 402 (out of quota)
-      # ------------------------------------------------------------------ #
       - name: Achievements
         uses: lowlighter/metrics@latest
         with:

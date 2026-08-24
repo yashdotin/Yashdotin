@@ -1,106 +1,160 @@
 # Setup
 
-This goes into a repo named **exactly** `Yashdotin` — `github.com/Yashdotin/Yashdotin`. That
-magic repo's README is what shows on your profile page.
+## What changed in this drop
 
----
+- **banner.png / banner.svg are gone** — the README doesn't reference them anymore, delete them from the repo if they're still sitting there from the last push.
+- **Self-hosted stats/cards addon added**, same idea as the old `github-readme-stats` / `streak-stats` embeds but rendered by scripts that live in this repo instead of a shared public service. When those public instances go down or get rate-limited, every profile using them shows broken images at once — a file committed to your own repo doesn't have that failure mode.
+- **Dot-matrix portrait added** at the top of the README (`assets/portrait.svg`), same treatment as Gargi's profile. Generate it from your own photo with `scripts/dotify.py` — see below.
+- New folders: `scripts/` (`cards.py`, `radar.py`, `dotify.py`) and two new workflows in `.github/workflows/`: `metrics.yml` and `cards.yml`. `Snake.yml` is untouched.
 
-## 1. Push it
+## Generating your portrait
+
+Needs Pillow: `pip install Pillow`. Pick a photo with a clean-ish background —
+square-ish framing works best.
 
 ```bash
-git init && git branch -M main
-git add -A && git commit -m "profile readme"
-git remote add origin https://github.com/Yashdotin/Yashdotin.git
-git push -u origin main
+python scripts/dotify.py your-photo.jpg -o assets/portrait --cols 100 --equalize --detail 0.5 --color
 ```
 
-The repo must be **public** — the SVG assets are loaded by URL, so a private repo shows
-broken images.
+- `--color` keeps real photo colours and writes a single `assets/portrait.svg`
+  (no dark/light split needed — the README already points at just that one file).
+- `--equalize` matters most for a face: a lit face against dark hair has a wider
+  tonal range than a dot ramp can show without it, so skip it and the render
+  blows out.
+- `--cols` is the size/detail dial — 100 is a solid default, 130 is sharper but
+  bigger.
+- Add `--circle` for a tight head-shot crop, `--square --focus 0.5,0.4` to
+  control the crop centre, or `--reveal` for a row-by-row load-in animation.
+- Full option list: `python scripts/dotify.py --help`, or see the comments Gargi
+  left in her own SETUP.md if you want the exact flag-by-flag reasoning.
+
+Commit `assets/portrait.svg` once you're happy with it — it's a static file,
+nothing regenerates it automatically.
+
+## Folder structure (what it should look like when done)
+
+```
+Yashdotin/
+├── README.md
+├── SETUP.md
+├── .github/
+│   └── workflows/
+│       ├── Snake.yml
+│       ├── metrics.yml
+│       └── cards.yml
+├── scripts/
+│   ├── cards.py
+│   └── radar.py
+└── assets/
+    ├── skills.json
+    ├── projects.json
+    ├── radar-dark.svg
+    └── radar-light.svg
+```
+
+Upload the whole folder, not loose files — GitHub's drag-and-drop only preserves
+subfolders if you drop the folder itself onto the upload zone, not individual files
+from inside it. Easiest and safest path is still a local clone:
+
+```bash
+git clone https://github.com/Yashdotin/Yashdotin.git
+# drop these files in, replacing what's there
+git add -A && git commit -m "self-hosted stats/cards addon, drop banner"
+git push
+```
+
+## 1. Check `assets/projects.json`
+
+The repo names in there (`Kriya-AI`, `Aptivio`, `Neural-Nitpicker`, `Wanderlust`) are my
+best guess at your actual GitHub repo slugs — fix any that don't match exactly (case
+included). If a slug is wrong, the `Charts and cards` workflow just skips that one and
+logs `!! <name> not found on the account, skipped` — nothing breaks, that card's `<img>`
+in the README just stays broken until the name matches.
 
 ## 2. Let Actions write to the repo
 
 Repo → **Settings** → **Actions** → **General** → **Workflow permissions** →
 select **Read and write permissions** → Save.
 
-Without this the Radar and Snake workflows fail on push.
+Without this, `metrics.yml` and `cards.yml` fail on push (same requirement the Snake
+workflow already had).
 
 ## 3. Add the metrics token
 
-`lowlighter/metrics` needs its own token — the built-in `GITHUB_TOKEN` can't read profile data.
-The same token also unlocks the live language radar and the contribution/streak tiles on the
-stat card, so it's worth setting even though only one workflow strictly requires it.
+`lowlighter/metrics` (used by `metrics.yml`) needs its own token — the built-in
+`GITHUB_TOKEN` can't read profile-level contribution data.
 
 1. https://github.com/settings/tokens → **Generate new token (classic)**
 2. Scopes: **`read:user`** (add **`repo`** too if you want private repos counted)
-3. Expiry: whatever you're happy re-doing later
-4. Copy it, then repo → **Settings** → **Secrets and variables** → **Actions** →
+3. Copy it, then repo → **Settings** → **Secrets and variables** → **Actions** →
    **New repository secret** → name it **`METRICS_TOKEN`**, paste the value
 
-## 4. Kick off the workflows
+`cards.py` also uses `METRICS_TOKEN` if it's set (falls back to the built-in token,
+which still works — you just lose the contribution/streak tiles on the stat card).
 
-Repo → **Actions** tab → enable workflows if prompted, then run each one via
-**Run workflow**:
+## 4. Run the workflows once
+
+Repo → **Actions** tab → run each of these manually via **Run workflow**:
 
 | workflow | produces | lands in |
 |---|---|---|
-| **Metrics** | 3D isometric calendar, achievements badges | `assets/metrics.*.svg` on `main` |
-| **Snake** | snake eating your contribution graph | the `output` branch |
-| **Charts and cards** | skill radar, live language radar, stat card, the 4 project cards | `assets/radar*.svg`, `assets/card-*.svg` on `main` |
+| **Metrics** | isometric calendar, languages, achievements | `assets/metrics.*.svg` on `main` |
+| **Charts and cards** | both radars, stat card, repo cards | `assets/radar*.svg`, `assets/card-*.svg` on `main` |
+| **generate snake** (Snake.yml) | snake eating your contribution graph | the `output` branch |
 
-First run takes a couple of minutes. After that they're on a schedule (metrics every 6h,
-snake every 12h, radar daily).
+First run of each takes a couple of minutes. After that they're on a schedule
+(metrics every 6h, cards daily at 3:30, snake every 6h).
 
-> The snake images are referenced from the `output` branch via `raw.githubusercontent.com`,
-> so they'll 404 until the Snake workflow has run once. That's expected.
+> Until "Charts and cards" has run once, `assets/card-stats-*.svg` and the four
+> `assets/card-<repo>-*.svg` files won't exist yet, so those images 404 on the
+> profile. That's expected — same as the snake note in the old SETUP.md.
 
-> I generated `assets/radar-dark.svg` / `assets/radar-light.svg` (the self-rated skill radar)
-> locally already — that one's stdlib-only and needed no token. The **language radar**
-> (`radar-langs-*`) and the **four repo cards** need to hit the live GitHub API for your
-> account, and my sandbox's IP was already rate-limited when I tried, so those will
-> generate on first Actions run instead of showing up pre-committed. Nothing to do — just
-> run the "Charts and cards" workflow once after pushing.
+## Tuning it later
 
----
-
-## The repo cards
-
-`assets/projects.json` lists the four repos featured under "selected work": `kriya-ai`,
-`aptivio`, `paint-the-unseen`, `neural-nitpicker`. If any of those don't match your actual
-repo names exactly, the workflow just skips that one silently (check the Action's log for
-a `!! <repo> not found on the account` line) — fix the name in `projects.json` and it'll
-pick it up on the next run. Swap in different repos any time by editing that file; stars,
-forks, and language are always pulled live.
-
-## The skill radar
-
-Edit `assets/skills.json` and either re-run `python scripts/radar.py --data assets/skills.json
--o assets/radar` locally, or just push — the "Charts and cards" workflow redraws it
-automatically whenever `assets/skills.json` changes. Values are 0-100 and self-rated; five
-to eight axes reads best.
-
-## The stat and repo cards, in general
-
-`scripts/cards.py` generates these into your own repo on purpose, instead of pointing at
-`github-readme-stats` / `github-profile-trophy` — those are shared public instances that
-periodically go down or hit quota, and when they do, a chunk of your profile shows broken
-images. A file committed to your repo doesn't have that failure mode.
-
----
+- **Skills**: edit `assets/skills.json`, values are 0–100 and self-rated. 5–8 axes
+  reads best.
+- **Which repos get a card**: edit `assets/projects.json`. Stars/forks/language are
+  pulled live from the API every run; the `description` there overrides whatever's
+  set on GitHub — worth setting a real description on the repo too since it also
+  shows up in your repo list.
+- **Language radar**: has no file to edit, it's built from real byte counts across
+  your public repos. `--exclude` and `--curve` are set in `cards.yml` if you want to
+  tune which languages get counted or how compressed a dominant language is.
+- **Colors**: both scripts key off a `THEMES` dict at the top of `scripts/cards.py`
+  and `scripts/radar.py` — already set to your amber (`#D4A017`) / teal (`#4FD1C5`) /
+  near-black (`#0A0A0A`) palette to match yashs.online.
 
 ## If something looks broken
 
-**Images don't load on the profile.** The repo has to be public, and the paths in the
-README are relative (`assets/…`) — those only resolve once the files are actually pushed.
+**Images don't load on the profile.** Repo has to be public, and paths in the README
+are relative (`assets/…`) — they only resolve once the files are actually pushed to
+`main`.
 
-**Metrics workflow fails.** Almost always the `METRICS_TOKEN` secret: missing, expired, or
+**Metrics workflow fails.** Almost always `METRICS_TOKEN`: missing, expired, or
 created as a fine-grained token instead of a classic one.
 
-**Snake images 404.** The Snake workflow hasn't completed yet, or step 2 (write permissions)
-was skipped so it couldn't create the `output` branch.
+**Cards workflow runs but repo cards don't show up.** Check the run log for
+`!! <repo> not found on the account, skipped` — fix the slug in `projects.json`.
 
-**A repo card is missing.** Check the repo name in `assets/projects.json` matches the actual
-GitHub repo name — the workflow log will say `not found on the account` if it doesn't.
+**Snake image 404s.** The Snake workflow hasn't completed a run yet, or step 2 above
+(write permissions) got skipped so it couldn't push to the `output` branch.
 
-**Streak stats show an error.** `streak-stats.demolab.com` is still a shared public instance
-(kept as-is since it's a small, low-risk piece); it usually recovers on its own during busy
-hours.
+**Metrics card shows "Failed to retrieve contributions. This is likely a GitHub API
+issue."** This is `lowlighter/metrics` itself saying its GraphQL call bounced —
+in practice it's almost always the token, not GitHub. Check, in order:
+
+1. **Does `METRICS_TOKEN` exist at all?** Repo → Settings → Secrets and variables →
+   Actions. If it's missing, `metrics.yml` falls back to nothing and every plugin
+   that needs contribution data fails this way.
+2. **Is it a classic token, not fine-grained?** github.com/settings/tokens →
+   "Generate new token (classic)". Fine-grained tokens don't expose the
+   contribution GraphQL fields `lowlighter/metrics` needs, even with correct repo
+   access.
+3. **Does it have `read:user` scope?** That's the one that unlocks contribution
+   data. Add `repo` too if you want private contributions counted.
+4. **Has it expired?** Classic tokens can be set to auto-expire — check the expiry
+   date on the token itself, not just that it still shows in your secrets list.
+5. Re-run the token through step 4 above (delete the old secret, add a fresh one),
+   then re-run the **Metrics** workflow manually from the Actions tab and check the
+   run log — it'll name the exact failing plugin if one specific tile is the
+   problem rather than the whole card.

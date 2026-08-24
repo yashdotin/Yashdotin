@@ -33,35 +33,30 @@ from pathlib import Path
 
 THEMES = {
     "dark": {
-        "grid": "#30363d",
-        "spoke": "#21262d",
-        "label": "#c9d1d9",
-        "value": "#8b949e",
-        "title": "#e6edf3",
-        "fill": "#39d353",
-        "stroke": "#3fb950",
-        "vertex": "#7ee787",
+        "grid": "#262626",
+        "spoke": "#1a1a1a",
+        "label": "#EDEDED",
+        "value": "#8a8a8a",
+        "title": "#D4A017",
+        "fill": "#4FD1C5",
+        "stroke": "#4FD1C5",
+        "vertex": "#D4A017",
         "bg": "none",
     },
     "light": {
-        "grid": "#d0d7de",
-        "spoke": "#e6eaef",
-        "label": "#1f2328",
-        "value": "#57606a",
-        "title": "#1f2328",
-        "fill": "#2da44e",
-        "stroke": "#1a7f37",
-        "vertex": "#116329",
+        "grid": "#e2e2e2",
+        "spoke": "#eeeeee",
+        "label": "#1a1a1a",
+        "value": "#6b6b6b",
+        "title": "#B8860B",
+        "fill": "#0F766E",
+        "stroke": "#0F766E",
+        "vertex": "#B8860B",
         "bg": "none",
     },
 }
 
 UA = {"User-Agent": "radar.py"}
-
-
-# --------------------------------------------------------------------------- #
-# data sources
-# --------------------------------------------------------------------------- #
 
 
 def from_json(path: Path):
@@ -111,16 +106,8 @@ def from_github(user: str, token: str | None, limit: int, exclude: set[str],
 
     top = sorted(totals.items(), key=lambda kv: -kv[1])[:limit]
     peak = top[0][1]
-    # Raw byte ratios are brutally lopsided — one dominant language leaves every
-    # other axis pinned near the centre and the shape reads as a spike. `curve`
-    # compresses that: 1.0 is linear, 0.5 (default) is sqrt, lower spreads more.
     axes = [(n, round(100 * (c / peak) ** curve, 1)) for n, c in top]
     return f"{user} · language mix", axes
-
-
-# --------------------------------------------------------------------------- #
-# rendering
-# --------------------------------------------------------------------------- #
 
 
 FONT = "ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
@@ -152,9 +139,6 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool,
     vals = [max(0.0, min(100.0, v)) for _, v in axes]
     outer = ring(r, n)
 
-    # Lay the labels out first, in centre-relative coordinates, so the viewBox
-    # can be sized around whatever they actually occupy. A fixed viewBox clips
-    # long labels on the left/right spokes.
     labels = []
     for i, (label, _) in enumerate(axes):
         ang = -math.pi / 2 + i * 2 * math.pi / n
@@ -185,8 +169,6 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool,
     H = round((maxy - miny) + 2 * pad + title_h)
     ox, oy = -minx + pad, -miny + pad + title_h
 
-    # A long title ("<user> · language mix") can be wider than the chart itself.
-    # Widen the canvas and re-centre the chart inside it rather than clipping.
     if title:
         need = round(text_width(title, TTL) + 2 * pad)
         if need > W:
@@ -208,7 +190,6 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool,
         )
     parts.append(f'<g transform="translate({ox:.1f},{oy:.1f})">')
 
-    # concentric rings, faintest in the middle
     for k in range(rings, 0, -1):
         d = " ".join(f"{x:.1f},{y:.1f}" for x, y in ring(r * k / rings, n))
         parts.append(
@@ -216,15 +197,12 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool,
             f'stroke-width="1" opacity="{0.35 + 0.5 * k / rings:.2f}"/>'
         )
 
-    # spokes
     for x, y in outer:
         parts.append(
             f'<line x1="0" y1="0" x2="{x:.1f}" y2="{y:.1f}" '
             f'stroke="{c["spoke"]}" stroke-width="1"/>'
         )
 
-    # the data shape. SMIL rather than CSS: animateTransform scales about the
-    # group's own origin, which is already the centre of the chart here.
     shape = [(px * v / 100, py * v / 100) for (px, py), v in zip(outer, vals)]
     d = " ".join(f"{x:.1f},{y:.1f}" for x, y in shape)
     parts.append("<g>")
@@ -245,7 +223,6 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool,
         )
     parts.append("</g>")
 
-    # axis labels
     for lx, ly, anchor, label, v in labels:
         parts.append(
             f'<text x="{lx:.1f}" y="{ly:.1f}" text-anchor="{anchor}" '
@@ -264,9 +241,6 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool,
 
 def esc(s: str) -> str:
     return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
-
-
-# --------------------------------------------------------------------------- #
 
 
 def main(argv=None):

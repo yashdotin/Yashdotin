@@ -32,25 +32,14 @@ except ImportError:  # pragma: no cover
     sys.exit("Pillow is required:  python -m pip install Pillow")
 
 
-# --------------------------------------------------------------------------- #
-# themes
-# --------------------------------------------------------------------------- #
-
 THEMES = {
-    # name: (foreground, dim-foreground, background-or-None)
     "dark": ("#39d353", "#0e4429", None),
     "light": ("#216e39", "#aceebb", None),
 }
 
 ASCII_RAMP = "@%#*+=-:. "  # dark -> light
 BRAILLE_BASE = 0x2800
-# bit order for a 2x4 braille cell: (col, row) -> dot bit
 BRAILLE_BITS = [[0x01, 0x08], [0x02, 0x10], [0x04, 0x20], [0x40, 0x80]]
-
-
-# --------------------------------------------------------------------------- #
-# image prep
-# --------------------------------------------------------------------------- #
 
 
 def square_crop(img, fx: float, fy: float):
@@ -96,10 +85,6 @@ def load_grid(path: Path, cols: int, contrast: float, gamma: float,
 
     gray = img.convert("L")
 
-    # A lit face against near-black hair spans a far wider range than the ~10
-    # tones a dot ramp can show. Equalising against the subject's own histogram
-    # buys back the shadow detail; the unsharp pass puts local facial structure
-    # back on top of the flattened result.
     if equalize:
         binmask = mask.point(lambda v: 255 if v > 127 else 0) if mask else None
         gray = ImageOps.equalize(gray, mask=binmask)
@@ -112,8 +97,6 @@ def load_grid(path: Path, cols: int, contrast: float, gamma: float,
         img = ImageEnhance.Contrast(img).enhance(contrast)
 
     w, h = img.size
-    # cell_aspect is cell width / cell height: 1.0 for square dot cells,
-    # ~0.5 for monospace glyphs (which are about twice as tall as they are wide)
     rows = max(1, round(cols * (h / w) * cell_aspect))
     small_g = gray.resize((cols, rows), Image.Resampling.LANCZOS)
     if mask is not None:
@@ -146,26 +129,16 @@ def circle_falloff(x, y, cols, rows, feather=0.06):
     return (1 + feather - d) / (2 * feather)
 
 
-# --------------------------------------------------------------------------- #
-# svg builders
-# --------------------------------------------------------------------------- #
-
 def svg_header(w, h, rows, opts):
     css = []
 
     if opts.animate:
-        # slow shimmer sweeping across the columns, staggered by lane
         css.append("@keyframes dp{0%,100%{opacity:.45}50%{opacity:1}}")
         css.append(f".d{{animation:dp {opts.duration}s ease-in-out infinite}}")
         css += [f".l{i}{{animation-delay:{i / opts.lanes * opts.duration:.2f}s}}"
                 for i in range(opts.lanes)]
 
     if opts.reveal:
-        # Row-by-row load-in. The animation goes on a <g> wrapping each row
-        # rather than on the dots themselves: group opacity MULTIPLIES with the
-        # children's own opacity, so binary mode keeps its per-glyph tone
-        # instead of having it overwritten, and it is one class per row rather
-        # than one per dot.
         step = opts.reveal_time / max(rows - 1, 1)
         css.append("@keyframes rv{from{opacity:0}to{opacity:1}}")
         css.append(f".rw{{animation:rv {opts.reveal_fade}s ease-out both}}")
@@ -243,7 +216,6 @@ def build_binary(cols, rows, lum, rgb, theme, opts):
                 v *= circle_falloff(x, y, cols, rows)
             if v < opts.floor:
                 continue
-            # deterministic-but-scattered bit choice, seeded by position + value
             bit = "1" if ((x * 7 + y * 13 + int(v * 37)) % 3) else "0"
             if v > 0.62:
                 bit = "1"
@@ -302,11 +274,6 @@ def build_braille(cols, rows, lum, opts):
             row.append(chr(BRAILLE_BASE + bits))
         lines.append("".join(row).rstrip())
     return "\n".join(lines)
-
-
-# --------------------------------------------------------------------------- #
-# main
-# --------------------------------------------------------------------------- #
 
 
 def main(argv=None):
@@ -390,8 +357,6 @@ def main(argv=None):
         return
 
     builder = build_dots if args.mode == "dots" else build_binary
-    # In --color mode the dot fills come from the photo, so the light and dark
-    # renders would be byte-identical. Emit one theme-neutral file instead.
     themes = ("dark",) if args.color else ("dark", "light")
     for theme in themes:
         body, w, h = builder(cols, rows, lum, rgb, theme, args)

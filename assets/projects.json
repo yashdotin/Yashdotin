@@ -1,21 +1,21 @@
 {
-  "_comment": "Featured repos, in README order. Star/fork/language come live from the API on every run; description here overrides the repo's GitHub description. Repo names must match the exact GitHub repo name (case-insensitive match against your account).",
+  "_comment": "repo names have to match your actual GitHub repo slugs exactly, case included. if a run skips one with 'not found on the account', fix the slug here and re-run the Charts and cards workflow.",
   "projects": [
     {
-      "repo": "kriya-ai",
-      "description": "Personalized learning path recommender built for HCLTech AMPlified. Semantic embeddings, hybrid course scoring, and a deterministic AI coach, running on a 512MB free-tier backend."
+      "repo": "Kriya-AI",
+      "description": "Personalized learning path recommender for the HCLTech AMPlified hackathon. Semantic embeddings, hybrid course scoring, adaptive confidence modeling, deterministic AI coach."
     },
     {
-      "repo": "aptivio",
-      "description": "Course recommendation platform with OTP auth and a from-scratch ML recommendation engine, split across a FastAPI backend and a Next.js frontend."
+      "repo": "Aptivio",
+      "description": "Course recommendation platform with OTP auth and a TF-IDF + cosine similarity engine, FastAPI backend paired with a Next.js frontend."
     },
     {
-      "repo": "paint-the-unseen",
-      "description": "A museum-style portfolio site for a Madhubani artist. GSAP stroke animation, a scroll-driven 3D particle assembly, and a masonry press archive."
+      "repo": "Neural-Nitpicker",
+      "description": "Resume analyzer built on Gemini, with a Puppeteer-driven PDF report generator behind a React/Vite frontend and an Express API."
     },
     {
-      "repo": "neural-nitpicker",
-      "description": "A resume analyzer that actually reads the PDF. Google Gemini for scoring, Puppeteer for report generation, no login wall in the way."
+      "repo": "Wanderlust",
+      "description": "Airbnb-style listings app with Node, Express and MongoDB, Cloudinary image storage and Passport-based auth."
     }
   ]
 }

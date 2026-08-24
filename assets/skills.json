@@ -1,13 +1,12 @@
 {
   "title": "Skill Radar",
   "axes": [
-    { "label": "Python",        "value": 85 },
-    { "label": "Scikit-learn",  "value": 78 },
-    { "label": "FastAPI",       "value": 80 },
-    { "label": "Next.js/React", "value": 75 },
-    { "label": "Node/Express",  "value": 72 },
-    { "label": "SQL/MongoDB",   "value": 70 },
-    { "label": "Deep Learning", "value": 60 },
-    { "label": "DSA (C++)",     "value": 68 }
+    { "label": "Python",       "value": 88 },
+    { "label": "FastAPI",      "value": 82 },
+    { "label": "Next.js",      "value": 78 },
+    { "label": "React",        "value": 75 },
+    { "label": "ML / sklearn", "value": 80 },
+    { "label": "Node / Express", "value": 70 },
+    { "label": "SQL / Mongo",  "value": 72 }
   ]
 }
