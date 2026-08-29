@@ -38,7 +38,7 @@ Right now I'm deep in placement season, so if you're hiring for anything AI/ML o
 Not going to list every tool I've ever touched — here's what I reach for most:
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,nextjs,react,sklearn,django,nodejs,mongodb,js,html,css,mysql&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=py,sklearn,django,nodejs,mongodb,js,html,css,mysql&theme=dark" />
 </p>
 
 Python and Scikit-learn for the modeling side, FastAPI and Django for anything that needs a real backend, Next.js/React on the frontend, and plain HTML/CSS/JS when a project doesn't need a framework's overhead to look good.
